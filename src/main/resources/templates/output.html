@@ -9,6 +9,6 @@
     <h3 th:text="#{content.title3}"></h3>
     <p th:text="'入力された値は「' + ${val} + '」です。'"></p>
     
-    <p><a th:href="@{/input(previous=${val})}">入力画面にもどる</a></p>
+    <p><a th:href="@{/input(previous=${val})}" th:text="#{content.message2}"></a></p>
 </body>
 </html>
